@@ -344,7 +344,7 @@ export const MINING_POOLS: MiningPool[] = [
     name: 'WATTx Mining Pool',
     url: 'stratum+tcp://pool.wattxchange.app',
     port: 3333,
-    algorithm: 'gapcoin',
+    algorithm: 'randomx',
     coin: 'WATTx',
     fee: 0.5,
     isActive: true,
