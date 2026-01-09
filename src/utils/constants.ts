@@ -411,3 +411,74 @@ export const INSCRIPTION_APIS = {
     mainnet: 'https://api.unisat.io/query-v4',
   },
 };
+
+// WATTx Brand Theme Colors
+export const THEME = {
+  colors: {
+    // Primary brand colors
+    primary: '#F7931A',
+    primaryDark: '#D97B0D',
+    accent: '#00D9FF',
+    accentDark: '#00B8D9',
+
+    // Background colors
+    background: '#1A1A2E',
+    backgroundSecondary: '#16213E',
+    surface: '#0F3460',
+    card: '#16213E',
+
+    // Text colors
+    text: '#FFFFFF',
+    textSecondary: '#B0B0B0',
+    textHint: '#6B6B6B',
+    textInverse: '#1A1A2E',
+
+    // Status colors
+    success: '#00C853',
+    error: '#FF5252',
+    warning: '#FFC107',
+    info: '#2196F3',
+
+    // Border and divider
+    border: '#2A2A4E',
+    divider: '#2A2A4E',
+
+    // Special
+    transparent: 'transparent',
+    overlay: 'rgba(0, 0, 0, 0.5)',
+  },
+
+  spacing: {
+    xs: 4,
+    sm: 8,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 48,
+  },
+
+  borderRadius: {
+    sm: 4,
+    md: 8,
+    lg: 16,
+    xl: 24,
+    full: 9999,
+  },
+
+  fontSize: {
+    xs: 10,
+    sm: 12,
+    md: 14,
+    lg: 16,
+    xl: 20,
+    xxl: 24,
+    xxxl: 32,
+  },
+
+  fontWeight: {
+    normal: '400' as const,
+    medium: '500' as const,
+    semibold: '600' as const,
+    bold: '700' as const,
+  },
+};

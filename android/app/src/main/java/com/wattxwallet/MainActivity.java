@@ -33,6 +33,8 @@ public class MainActivity extends ReactActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
+    // Switch from splash theme to app theme
+    setTheme(R.style.AppTheme);
     super.onCreate(null);
   }
 }

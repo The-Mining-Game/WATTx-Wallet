@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer glow ring -->
+    <path
+        android:fillColor="#00D9FF"
+        android:fillAlpha="0.2"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0"/>
+
+    <!-- Main circle background -->
+    <path
+        android:fillColor="#16213E"
+        android:pathData="M100,100m-75,0a75,75 0,1 1,150 0a75,75 0,1 1,-150 0"/>
+
+    <!-- Inner ring -->
+    <path
+        android:strokeColor="#F7931A"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M100,100m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0"/>
+
+    <!-- W letter - main logo -->
+    <path
+        android:fillColor="#F7931A"
+        android:pathData="M55,60 L65,60 L77,95 L89,70 L100,70 L112,95 L124,60 L134,60 L116,140 L104,140 L94,110 L84,140 L72,140 Z"/>
+
+    <!-- Lightning bolt -->
+    <path
+        android:fillColor="#00D9FF"
+        android:pathData="M108,45 L92,80 L104,80 L96,105 L120,65 L106,65 Z"/>
+
+    <!-- Energy particles -->
+    <path
+        android:fillColor="#00D9FF"
+        android:fillAlpha="0.8"
+        android:pathData="M40,100m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    <path
+        android:fillColor="#00D9FF"
+        android:fillAlpha="0.8"
+        android:pathData="M160,100m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    <path
+        android:fillColor="#F7931A"
+        android:fillAlpha="0.6"
+        android:pathData="M100,160m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    <path
+        android:fillColor="#F7931A"
+        android:fillAlpha="0.6"
+        android:pathData="M100,40m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+
+    <!-- Small accent dots -->
+    <path
+        android:fillColor="#00D9FF"
+        android:fillAlpha="0.5"
+        android:pathData="M60,55m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#00D9FF"
+        android:fillAlpha="0.5"
+        android:pathData="M140,145m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#F7931A"
+        android:fillAlpha="0.5"
+        android:pathData="M140,55m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#F7931A"
+        android:fillAlpha="0.5"
+        android:pathData="M60,145m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+</vector>
